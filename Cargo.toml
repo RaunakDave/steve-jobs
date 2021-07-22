@@ -1,0 +1,28 @@
+[package]
+name = "steve-jobs"
+version = "0.1.0"
+authors = ["Raunak Dave <raunak_dave@icloud.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+nanoid = "0.3.0"
+prost = "0.7.0"
+structopt = "0.3.21"
+tokio-stream = "0.1.5"
+tokio = { version = "1.4.0", features = ["full"] }
+tonic = { version = "0.4.1", features = ["tls"] }
+async-stream = "0.3.0"
+users = "0.11.0"
+serde = "1.0.125"
+jsonwebtoken = "7.2.0"
+nix = "0.20.0"
+cgroups-rs= "0.2.5"
+cgroups-fs = "1.1.2"
+rm_rf = "0.6.1"
+rustls = "0.19.0"
+
+[build-dependencies]
+tonic-build = "0.4.1"

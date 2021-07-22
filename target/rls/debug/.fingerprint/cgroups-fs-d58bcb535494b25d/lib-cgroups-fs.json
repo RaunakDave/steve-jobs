@@ -1,0 +1,1 @@
+{"rustc":501949410154292749,"features":"[]","target":17505566590933762758,"profile":10017580474031740910,"path":1838268810201014703,"deps":[[1080655276401992135,"nix",false,2368000176414354094]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/cgroups-fs-d58bcb535494b25d/dep-lib-cgroups-fs"}}],"rustflags":[],"metadata":8331470494473339699,"config":0,"compile_kind":0}
