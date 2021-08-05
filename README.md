@@ -67,10 +67,9 @@ Example UX: mrarsenal@pop-os:~/Documents/steve-jobs$./target/debug/steve-jobs ru
 5) Sessions.
 
 ### Usage:
-cargo run -- server
-cargo run -- run "ls -al"
-cargo run -- stop UUID
-cargo run -- status UUID
-cargo run -- result UUID
-cargo run -- streamer "ls -al"
-cargo run -- kill UUID
+1) cargo run -- server
+2) cargo run -- run "ls -al"
+3) cargo run -- stop UUID
+4) cargo run -- status UUID
+5) cargo run -- result UUID
+6) cargo run -- streamer "ls -al"
