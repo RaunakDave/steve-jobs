@@ -29,9 +29,8 @@ The client module will offer subcommands that correspond to each of the server's
 1) I plan to get the username from the shell calling the client subcommand. And only a user named "mrarsenal" (huge fan of ArsenalFC) will be authorized to avail the services of the application.
 2) The authorization will be done using JWT. The secret key "secret" will be hardcoded in the code and will be used to evaluate the client's claims.
 3) The client and server certificates will be pregenerated and will be available as a part of the repository.
-4) The client and server will communicate using the gRPC protocol (enforced by the specification).
-5) In order to do resource throttling for the job I intend to use the cgroup functionality exposed by the linux kernel.
-6) In order to isolate jobs I intend to use the unshare system call offered by the linux API.
+4) In order to do resource throttling for the job I intend to use the cgroup functionality exposed by the linux kernel.
+5) In order to isolate jobs I intend to use the unshare system call offered by the linux API.
 
 ### Usage:
 1) cargo run -- server
