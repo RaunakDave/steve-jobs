@@ -1,3 +1,5 @@
+Read worker.pdf first for more context.
+
 # steve-jobs design documentation
 
 ### Aim and scope:
