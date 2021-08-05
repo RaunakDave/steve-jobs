@@ -65,3 +65,12 @@ Example UX: mrarsenal@pop-os:~/Documents/steve-jobs$./target/debug/steve-jobs ru
 3) Pausable/Resumable jobs.
 4) Health checks.
 5) Sessions.
+
+### Usage:
+cargo run -- server
+cargo run -- run "ls -al"
+cargo run -- stop UUID
+cargo run -- status UUID
+cargo run -- result UUID
+cargo run -- streamer "ls -al"
+cargo run -- kill UUID
